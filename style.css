@@ -1,0 +1,31 @@
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  border: 1px solid red;
+  margin: 0 auto;
+  max-width: 1252px;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 15px;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid blue;
+}
+
+.nav-item {
+  font-size: 16px;
+  padding-left: 46px;
+  list-style-type: none;
+}
+
+.nav-list:first-child {
+  padding-left: 0;
+}/*# sourceMappingURL=style.css.map */
